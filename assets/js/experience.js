@@ -5,25 +5,39 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Machine Learning Intern",
+    cardImage: "assets/images/experience-page/siemens.png",
+    place: "Siemens",
+    time: "(July - August, 2022)",
+    desp: "<li>Worked in the symphony analog mixed signal automation team.</li> <li>Developed a robust Seq2Seq Encoder-Decoder LSTM model which could accurately forecast time-series data based on various inputs to the symphony block.</li> <li>Developed a C++ wrapper via python binding for code testing and production.</li>",
+  },
+  {
     title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    cardImage: "assets/images/experience-page/samsung.png",
+    place: "Samsung",
+    time: "(May - June, 2022)",
+    desp: "<li>Worked with the Visual Intelligence team in Camera Systems group.</li><li>Developed a frame logger tool which could visualise the dropped frames at the exact processing elements in a camera sensor system. </li><li>This tool would help with debugging faulty/lagging camera systems.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Independent Study Researcher",
+    cardImage: "assets/images/experience-page/precog.png",
+    place: "Precog, IIITD",
+    time: "(Dec, 21 - Dec, 22)",
+    desp: "<li>Worked with Prof. Ponnurangam Kumaraguru in the intersection of AI, Data Science, and Big Data.</li><li>Collaborated with Infosys to develop a synthetic data generation and anonymisation tool using AutoML, synthetic data vault, and GANs.</li><li>Developed graph-based algorithms for effective data discovery and disposal.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Honors Research Assistant",
+    cardImage: "assets/images/experience-page/spcrc.png",
+    place: "SPCRC, IIITH",
+    time: "(Sept, 20 - May, 23)",
+    desp: "<li>Worked with Dr. Sachin Chaudhari on projects revolving around AI in large-scale IoT deployments.</li><li>Developed ML/DL based solutions for automation of analog water meters to develop smart water meters.</li><li>Analysed water consumption patterns and leakage data to derive inferences for efficient water management.</li>",
+  },
+  {
+    title: "Teaching Assistant",
+    cardImage: "assets/images/experience-page/iiith.png",
+    place: "IIIT, Hyderabad",
+    time: "(Aug, 22 - May, 23)",
+    desp: "<li>Statistical Methods in Artificial Intelligence: Spring 2023</li><li>Embedded Systems Workshop: Monsoon 2022</li><li>Responsible for conducting, setting and correcting various tutorials, assignments and quizzes.</li>",
   },
 ];
 
