@@ -38,24 +38,8 @@ const research = [
       "This paper introduces an internet-of-things (IoT) based economic retrofitting setup for digitising the analog water meters to make them smart. The setup contains a Raspberry-Pi microcontroller and a Pi-camera mounted on top of the analog water meter to take its images. The captured images are then preprocessed to estimate readings using a machine learning (ML) model. The employed ML algorithm is trained on a rich dataset that includes digits from the images of water meters captured by the hardware setup for ten days. The readings are posted on a cloud server in real-time using Raspberry-Pi. High temporal resolution plots of flow rate and volume are generated to derive inferences. The collected data can be used for deriving water consumption patterns and fault detection for efficient water management.",
     absbox: "absPopup2",
   },
+  
 
-  {
-    title:
-      "A Comprehensive Analysis of Preprog for Word Representation Learning in Affective Tasks",
-    authors: "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis",
-    conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
-    citebox: "popup3",
-    image: "assets/images/research-page/wordRepresentation.png",
-    citation: {
-      vancouver:
-        "Nastaran Babanejad, Ameeta Agrawal, Aijun An and Manos Papagelis. A Comprehensive Analysis of Preprocessing for Word Representation Learning in Affective Tasks. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
-    },
-    abstract:
-      "This is currently left empty and this can be considered as a dummy data 3",
-    absbox: "absPopup3",
-  },
 
   {
     title:
