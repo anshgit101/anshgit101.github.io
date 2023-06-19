@@ -6,28 +6,28 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Machine Learning Intern",
-    cardImage: "assets/images/experience-page/siemens.png",
+    cardImage: "assets/images/experience-page/siemens.jpeg",
     place: "Siemens",
     time: "(July - August, 2022)",
     desp: "<li>Worked in the symphony analog mixed signal automation team.</li> <li>Developed a robust Seq2Seq Encoder-Decoder LSTM model which could accurately forecast time-series data based on various inputs to the symphony block.</li> <li>Developed a C++ wrapper via python binding for code testing and production.</li>",
   },
   {
     title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/samsung.png",
+    cardImage: "assets/images/experience-page/samsung.jpeg",
     place: "Samsung",
     time: "(May - June, 2022)",
     desp: "<li>Worked with the Visual Intelligence team in Camera Systems group.</li><li>Developed a frame logger tool which could visualise the dropped frames at the exact processing elements in a camera sensor system. </li><li>This tool would help with debugging faulty/lagging camera systems.</li>",
   },
   {
     title: "Independent Study Researcher",
-    cardImage: "assets/images/experience-page/precog.png",
+    cardImage: "assets/images/experience-page/precog.jpeg",
     place: "Precog, IIITD",
     time: "(Dec, 21 - Dec, 22)",
     desp: "<li>Worked with Prof. Ponnurangam Kumaraguru in the intersection of AI, Data Science, and Big Data.</li><li>Collaborated with Infosys to develop a synthetic data generation and anonymisation tool using AutoML, synthetic data vault, and GANs.</li><li>Developed graph-based algorithms for effective data discovery and disposal.</li>",
   },
   {
     title: "Honors Research Assistant",
-    cardImage: "assets/images/experience-page/spcrc.png",
+    cardImage: "assets/images/experience-page/spcrc.jpeg",
     place: "SPCRC, IIITH",
     time: "(Sept, 20 - May, 23)",
     desp: "<li>Worked with Dr. Sachin Chaudhari on projects revolving around AI in large-scale IoT deployments.</li><li>Developed ML/DL based solutions for automation of analog water meters to develop smart water meters.</li><li>Analysed water consumption patterns and leakage data to derive inferences for efficient water management.</li>",
