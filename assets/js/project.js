@@ -39,33 +39,6 @@ const projects = [
     Githublink: "https://github.com/anshgit101/E-Commerce-Website",
   },
   {
-    title: "Graph Constructor: NNK Graphs",
-    cardImage: "assets/images/project-page/graph.jpg",
-    description:
-      "Minesweeper Game built using python Object Oriented Programming.",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "https://github.com/anshgit101/Graph-Construction-using-NNK-graphs",
-  },
-  {
-    title: "Rhythm Pass: Password Authenticator",
-    cardImage: "assets/images/project-page/rhythm-pass.png",
-    description: "Flappy bird game built using React.js",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
-    title: "Machine Generated Text Detector",
-    cardImage: "assets/images/project-page/detector.png",
-    description: "Built battery life calculator using Python.",
-    tagimg:
-      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
-    Previewlink: "",
-    Githublink: "https://github.com/anshgit101/Machine-generated-Text-Detector",
-  },
-  {
     title: "Survelliance Car",
     cardImage: "assets/images/project-page/car.png",
     description: "Built battery life calculator using Python.",
@@ -79,6 +52,14 @@ const projects = [
     cardImage: "assets/images/project-page/cache-simulator.png",
     description: "Designed and coded a cache simulator in C to simulate cache memory behaviour with arbitrary size and associativity, given a series of memory operations (loads and stores).",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Rhythm Pass: Password Authenticator",
+    cardImage: "assets/images/project-page/rhythm-pass.png",
+    description: "Flappy bird game built using React.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
     Githublink: "",
   },
@@ -99,6 +80,25 @@ const projects = [
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
     Githublink: "https://github.com/anshgit101/RoboticWheelchair",
+  },
+  {
+    title: "Machine Generated Text Detector",
+    cardImage: "assets/images/project-page/detector.png",
+    description: "Built battery life calculator using Python.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/anshgit101/Machine-generated-Text-Detector",
+  },
+  {
+    title: "Graph Constructor: NNK Graphs",
+    cardImage: "assets/images/project-page/graph.png",
+    description:
+      "Minesweeper Game built using python Object Oriented Programming.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/anshgit101/Graph-Construction-using-NNK-graphs",
   },
 ];
 
