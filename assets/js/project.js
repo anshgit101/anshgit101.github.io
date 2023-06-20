@@ -40,7 +40,7 @@ const projects = [
   },
   {
     title: "Graph Constructor: NNK Graphs",
-    cardImage: "assets/images/project-page/minesweeper.jpg",
+    cardImage: "assets/images/project-page/graph.jpg",
     description:
       "Minesweeper Game built using python Object Oriented Programming.",
     tagimg:
@@ -58,7 +58,7 @@ const projects = [
   },
   {
     title: "Machine Generated Text Detector",
-    cardImage: "assets/images/project-page/battery.png",
+    cardImage: "assets/images/project-page/detector.png",
     description: "Built battery life calculator using Python.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -67,7 +67,7 @@ const projects = [
   },
   {
     title: "Survelliance Car",
-    cardImage: "assets/images/project-page/battery.png",
+    cardImage: "assets/images/project-page/car.png",
     description: "Built battery life calculator using Python.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     title: "Drone Simulator",
-    cardImage: "assets/images/project-page/battery.png",
+    cardImage: "assets/images/project-page/drone-simulator.png",
     description: "Built battery life calculator using Python.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
@@ -93,7 +93,7 @@ const projects = [
   },
   {
     title: "Robotic Wheelchair",
-    cardImage: "assets/images/project-page/battery.png",
+    cardImage: "assets/images/project-page/wheelchair.png",
     description: "Built battery life calculator using Python.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
