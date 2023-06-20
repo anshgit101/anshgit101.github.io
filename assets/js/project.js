@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Policy Park",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    cardImage: "assets/images/project-page/policy-park.png",
     description: "A quiz app built using basic react.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
@@ -15,39 +15,23 @@ const projects = [
   },
   {
     title: "Mask Detector",
-    cardImage: "assets/images/project-page/chess.jpg",
+    cardImage: "assets/images/project-page/mask-detector.png",
     description: "A chess engine for a popular game dev engine.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "",
     Githublink: "https://github.com/anshgit101/MaskDetector",
   },
   {
-    title: "Rhythm Pass",
-    cardImage: "assets/images/project-page/flappybird.png",
-    description: "Flappy bird game built using React.js",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
     title: "Linux Shell",
-    cardImage: "assets/images/project-page/exercise.jpg",
+    cardImage: "assets/images/project-page/linux-shell.png",
     description: "Built a bash-like command interpreter, written in C, with support for built-in/system commands, directory-specific prompt, input/output redirection, piping, signal handling, and process management.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "",
     Githublink: "https://github.com/anshgit101/Shell",
   },
   {
-    title: "Cache Simulator",
-    cardImage: "assets/images/project-page/poker.jpg",
-    description: "Designed and coded a cache simulator in C to simulate cache memory behaviour with arbitrary size and associativity, given a series of memory operations (loads and stores).",
-    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
-    Previewlink: "",
-    Githublink: "",
-  },
-  {
     title: "IIITH OLX",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
+    cardImage: "assets/images/project-page/iiith-olx.png",
     description:
       "Built an e-commerce website for college students to buy/sell products and write reviews.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
@@ -55,23 +39,66 @@ const projects = [
     Githublink: "https://github.com/anshgit101/E-Commerce-Website",
   },
   {
-    title: "Minesweeper Game",
+    title: "Graph Constructor: NNK Graphs",
     cardImage: "assets/images/project-page/minesweeper.jpg",
     description:
       "Minesweeper Game built using python Object Oriented Programming.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
+    Githublink: "https://github.com/anshgit101/Graph-Construction-using-NNK-graphs",
+  },
+  {
+    title: "Rhythm Pass: Password Authenticator",
+    cardImage: "assets/images/project-page/rhythm-pass.png",
+    description: "Flappy bird game built using React.js",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "",
     Githublink: "",
   },
   {
-    title: "Battery Life Calculator",
+    title: "Machine Generated Text Detector",
     cardImage: "assets/images/project-page/battery.png",
     description: "Built battery life calculator using Python.",
     tagimg:
       "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
     Previewlink: "",
+    Githublink: "https://github.com/anshgit101/Machine-generated-Text-Detector",
+  },
+  {
+    title: "Survelliance Car",
+    cardImage: "assets/images/project-page/battery.png",
+    description: "Built battery life calculator using Python.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/anshgit101/SurveillanceCar",
+  },
+  {
+    title: "Cache Simulator",
+    cardImage: "assets/images/project-page/cache-simulator.png",
+    description: "Designed and coded a cache simulator in C to simulate cache memory behaviour with arbitrary size and associativity, given a series of memory operations (loads and stores).",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "",
     Githublink: "",
+  },
+  {
+    title: "Drone Simulator",
+    cardImage: "assets/images/project-page/battery.png",
+    description: "Built battery life calculator using Python.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/anshgit101/DroneSimulator",
+  },
+  {
+    title: "Robotic Wheelchair",
+    cardImage: "assets/images/project-page/battery.png",
+    description: "Built battery life calculator using Python.",
+    tagimg:
+      "https://camo.githubusercontent.com/888e388801f947dec7c3d843942c277af25fe2b1aed1821542c4e711f210312a/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f37363870782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67",
+    Previewlink: "",
+    Githublink: "https://github.com/anshgit101/RoboticWheelchair",
   },
 ];
 
